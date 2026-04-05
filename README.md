@@ -1,4 +1,5 @@
-# Shehrbano Ali - Wikimedia Task 1 Submission 
+# Shehrbano Ali - Wikimedia Task 1 Submission  
+
 **Contributor:** Shehrbano Ali  
 **Email:** shehrbanoali2230@gmail.com  
 **Github:** [Shehrbaano-Ali](https://github.com/Shehrbaano-Ali/)  
@@ -6,6 +7,7 @@
 **Project:** Addressing the Lusophone technological wishlist proposals  
 **Date:** April 5, 2026  
 **Task:** [Task 1 - Create a JavaScript script to manipulate a JSON object](https://phabricator.wikimedia.org/T418285)
+
 
 ---
 ## LINK
@@ -36,7 +38,7 @@ A functional prototype for Wishlist Proposal #3, utilizing String Normalization.
 ![Prototype Preview](04-prototype-guard.png)
 
 
-
+---
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
@@ -52,6 +54,8 @@ This repository contains my submission for **Task 1** of the Outreachy 2026 cont
 
 By cross referencing the instructions with the raw data, I identified and resolved a technical discrepancy related to browser side date rendering. Additionally, I have included a functional prototype of a **Wiki Reference Guard** to demonstrate how the principles of normalization apply to real-world Wikimedia software challenges.
 
+
+---
 ## Objectives
 1. **Parse JSON metadata** (`page_id`, `creation_date`, `title`).
 2. **Format ISO dates** into localized, human-friendly strings.
@@ -59,9 +63,11 @@ By cross referencing the instructions with the raw data, I identified and resolv
 4. **Implement String Normalization** to prevent duplicate citations in the Visual Editor.
 5. **Document findings** with a professional, developer-first presentation.
 
+---
 ## Implementation Details
 The solution is implemented using **Vanilla JavaScript**, **HTML5**, and **CSS3**. It avoids external libraries to remain lightweight and easily auditable by the Wikimedia community.
 
+---
 ## The Timezone Challenge (Bug Fix)
 During validation, I identified a logic error in the task instructions by comparing the input data with the expected output.
 
@@ -74,6 +80,7 @@ During validation, I identified a logic error in the task instructions by compar
 const dateObj = new Date(article.creation_date + T00:00:00);
 ```
 
+---
 ## Beyond the Task: Project Integration
 While Task 1 focuses on data manipulation, the **Wiki Reference Guard** prototype demonstrates the application of **String Normalization** to solve a real-world problem:  
 _**[Wishlist Proposal #3 (Duplicate Reference Detection)](https://meta.wikimedia.org/wiki/Lista_de_desejos_tecnol%C3%B3gicos_da_lusofonia/2025/Propostas/Verificar_automaticamente_uma_refer%C3%AAncia_duplicada)**_
@@ -81,11 +88,13 @@ _**[Wishlist Proposal #3 (Duplicate Reference Detection)](https://meta.wikimedia
 
 By stripping protocols (`https://`), prefixes (`www.`), and trailing slashes, the system can identify that two different URLs actually point to the same source, preventing citation clutter.
 
+---
 ## Key Findings
 * **Edge Case Awareness:** Technical documentation must account for browser specific behaviors like UTC date parsing.
 * **Data Integrity:** Comparing raw inputs against expected results is the first step in robust quality assurance.
 * **Scalability:** Small logic tasks (like Task 1) provide the foundational blocks for larger system features (like the Reference Guard).
 
+---
 ## Repository Structure
 ```
 Outreachy-Wikimedia-Task-1/
@@ -99,6 +108,7 @@ Outreachy-Wikimedia-Task-1/
 └── 04-prototype-guard.png # Screenshot: Wishlist #3 Prototype
 ```
 
+---
 ## AI Usage
 I utilized Chatgpt for:
 * **Documentation Structure:** Organizing this README to reflect the systematic analysis expected in open-source contributions.
@@ -106,6 +116,5 @@ I utilized Chatgpt for:
 All code, logic, and experiments were manually verified and implemented by me. The chatgpt served as a guide to accelerate understanding.
 
 ---
-
 *This work is submitted for the Outreachy May 2026 internship application for the Wikimedia Project.*  
 *~Shehrbano Ali*
