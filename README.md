@@ -118,5 +118,5 @@ All code, logic, and experiments were manually verified and implemented by me. T
 ---
 
 *Here is the link to my _**[Blog](https://shehrbanoali.hashnode.dev/beyond-the-formatter-how-a-simple-json-task-taught-me-the-weight-of-global-data-integrity)**_*  
-*This work is submitted for the Outreachy May 2026 internship application for the Wikimedia Project.*  
+*This work is submitted for the Outreachy 2026 internship application for the Wikimedia Project.*  
 *~Shehrbano Ali*
