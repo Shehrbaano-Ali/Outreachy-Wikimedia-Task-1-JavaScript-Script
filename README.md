@@ -3,7 +3,7 @@
 **Contributor:** Shehrbano Ali  
 **Email:** shehrbanoali2230@gmail.com  
 **Github:** [Shehrbaano-Ali](https://github.com/Shehrbaano-Ali/)  
-**Program:** Outreachy May 2026 Cohort  
+**Program:** Outreachy 2026 Cohort  
 **Project:** Addressing the Lusophone technological wishlist proposals  
 **Date:** April 5, 2026  
 **Task:** [Task 1 - Create a JavaScript script to manipulate a JSON object](https://phabricator.wikimedia.org/T418285)
